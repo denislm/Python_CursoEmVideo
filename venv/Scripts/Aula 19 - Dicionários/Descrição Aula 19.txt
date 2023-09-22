@@ -1,0 +1,15 @@
+Nessa aula, vamos aprender o que são DICIONÁRIOS e como utilizar dicionários em Python.
+Os dicionários são variáveis compostas que permitem armazenar vários valores em uma
+mesma estrutura, acessíveis por chaves literais.
+
+As listas possuem indices númericos, exemplo:
+pessoas = list()
+pessoa1 = pessoas[0]
+
+Dicionários possuem nomes ao invés de números:
+
+São identificados por {}
+dados = dict()
+dados = { 'nome':'Pedro','idade':25 }
+
+Append não funciona em Dicionários

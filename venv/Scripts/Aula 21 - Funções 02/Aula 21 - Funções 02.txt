@@ -1,0 +1,44 @@
+1) Interactive Help
+help()
+Mostra na tela o Help interativo para procurar qualquer coisa, exemplo
+print: com sua descrição
+help(print) procura diretamente
+
+2) Docstrings
+
+def contador(i, f, p):
+    '''apertar enter'''
+    manual é pré gerado
+para acionar o manual
+help(contador)
+
+3) Argumentos opcionais
+
+def somar(a, b, c=0):
+declara o valor de uma váriavel opcional,
+caso usuário não declare ela,
+será estabelecido o valor 0, no exemplo para c
+
+4) Escopo de variáveis
+pode ser criada uma função sem valores declarados
+def teste(n):
+    x = 0
+    a = 7 (váriavel local, não vai alterar o valor de a, no programa principal)
+     #  As variaveis declaradas no programa principal, podem ser utilizadas, na função teste
+    print(f'Na função b vale {n}')
+
+ # Programa principal
+ n = 2
+  # As variaveis declaradas na função teste, não podem ser declaradas no programa principal
+ print(x) ERRO
+ print(n) Não vai pegar o valor da função 5, pois o n
+ a = 22
+ teste(a) # Rodar a função com o valor de A
+ apenas o b é global
+
+
+global variavel
+Define variavel global
+
+5) Retorno de Resultados (return)
+return

@@ -1,0 +1,15 @@
+n =input('Digite um valor: ')
+numero = n.isnumeric()
+letra = n.isalpha()
+alfaNum = n.isalnum()
+maiusculo = n.isupper()
+minusculo = n.islower()
+capitalizada = n.istitle()
+
+print('É um número:', numero)
+print('É uma palavra:',  letra)
+print('É alfanúmerico:', alfaNum)
+print('Está em maiusculo:', maiusculo)
+print('Está em minusculo:', minusculo)
+print("Está Capitalizada:", capitalizada)
+
